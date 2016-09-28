@@ -40,7 +40,7 @@ Analyzing each feature visually and statistically, for each census tract, agains
 ---
 ![Slider](img/slider.gif)  
 
-Using sci-kit learn, I used a linear regression model for its speed in interacting with the slider. The predictions are based on the number of each feature in each census tract to predict the total number of homelessness in each census tract. When evaluating the model, I cross-validated 5 folds and scored (R2) each fold, the mean score across all 5 folds was 0.26897408605, which means the model will only accurately predict the total number of homelessness in each census tract ~27% of the time. 
+Using sci-kit learn, I used a linear regression model for its speed in interacting with the slider. The predictions are based on the number of each feature in each census tract to predict the total number of homelessness in each census tract.  
 
 ### Next Steps
 ---
